@@ -1,0 +1,66 @@
+/* ------------------------code by faizal--------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lucida Sans;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#ab35fa,#b135eb);
+}
+
+/* -------------------------form--------------------------------------*/
+form{
+    width: 23rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+}
+h4{
+    font-size: 20px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* -------------------------------------input---------------------------- */
+input{
+    width: 60%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+
+}
+::placeholder{
+    color: white;
+}
+/* -----------------------------button-------------------------- */
+button{
+    width: 50%;
+    height: 10%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    border: none;
+    background: linear-gradient(to right,rgb(54, 148, 235),rgb(50, 198, 218));
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
